@@ -1,0 +1,96 @@
+/* Header.css */
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top-bar {
+  height: 24px;
+  background-color: #19418e;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.top-bar .container {
+  height: 100%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+.main-nav {
+  height: 42px;
+  background-color: #fff;
+}
+
+.nav-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #17458f;
+  font-size: 23px;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #111;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.nav-links a:hover {
+  color: #17458f;
+}
+
